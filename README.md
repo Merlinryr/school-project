@@ -1,2 +1,2 @@
-# school-project
+# School Project
 School project gallery

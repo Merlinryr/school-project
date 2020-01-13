@@ -1,0 +1,15 @@
+body {
+  height: 100vh;
+  max-width: 100vw;
+  background-color: black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body canvas {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*# sourceMappingURL=main.css.map */

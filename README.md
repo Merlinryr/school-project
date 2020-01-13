@@ -1,2 +1,2 @@
 # School Project
-School project gallery
+School project and personnal works gallery

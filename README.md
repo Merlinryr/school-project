@@ -1,2 +1,10 @@
 # School Project
-School project and personnal works gallery
+This gallery regroups some of my personnal school projects in web development
+
+
+Tech. used: 
+  -JQUERY
+  -PIXI.JS
+  -SASS
+  -HTML
+  -CSS

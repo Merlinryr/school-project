@@ -1,1 +1,9 @@
+What is the aim of this project ?
+The main goal of this small "test" project is to get familiar with the effect of Inertia while navigating in a web application.
+Inertia could affect scroll behavior (with Paralax effect), on mouse move or any other navigation event.
+
+
+TECHNOLOGY USED : Javacript - PIXI.js
+
+
 

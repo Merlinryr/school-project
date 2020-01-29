@@ -1,0 +1,6 @@
+What is the aim of this project ?
+The main goal of this project is to create a small landing page effect. Every lines are generated with PIXI.js which can causes
+optimizations issues due to the number of elements generated at the same time.
+
+
+TECHNOLOGY USED : Javacript - PIXI.js - GSAP

@@ -1,0 +1,6 @@
+What is the aim of this project ?
+The main goal of this project is to get familiar with Javascript animations and interactivity in web application. The whole effect is based
+on 2d shapes drew with PIXI.js library while every animation has been edited with GSAP library (Tween Max).
+
+
+TECHNOLOGY USED : Javacript - PIXI.js - GSAP

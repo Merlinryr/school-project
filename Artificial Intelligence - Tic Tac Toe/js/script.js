@@ -20,6 +20,12 @@ const winCombos = [
   [2, 4, 6]
 ];
 
+
+///////////////////////////////////////////////////////////////////////////////////
+//                             FONCTIONS GENERALES                              //
+//////////////////////////////////////////////////////////////////////////////////
+
+
 // Appelle la fonction play
 Play();
 
@@ -89,6 +95,10 @@ function onTurn(squareId, player) {
   }
 }
 
+///////////////////////////////////////////////////////////////////////////////////
+//                             GESTION DU SCORE                                 //
+//////////////////////////////////////////////////////////////////////////////////
+
 
 // Fonction de vérification de victoire
 function onCheckWin(board, player) {
@@ -132,6 +142,7 @@ function onGameOver({
     // Supprime l'évènement de clique pour bloquer le jeu
     cells[i].removeEventListener('click', onTurnClick, false)
   }
+
 
   // Affiche le résultat: si le gagnant est humain alors afficher victoire, sinon défaite
   const result = (player === joueur) ? "C'est gagné !" : "C'est perdu !";

@@ -31,6 +31,13 @@ td {
   vertical-align: middle;
   font-size: 70px;
   cursor: pointer;
+
+
+}
+
+td:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  /* transition: 0.5s; */
 }
 
 table tr:first-child td {
@@ -69,5 +76,21 @@ button {
   background-color: #333;
   color: #fff;
   border: 0;
-  border-left: 10px solid #9E9E9E;
+  border-top: 10px solid #9E9E9E;
+}
+
+
+#restart{
+  border-radius: 0px;
+  font-family: "Big John";
+  letter-spacing: auto;
+  transition: 0.5s;
+}
+
+#restart:hover {
+  background-color: white;
+  letter-spacing: 1em;
+  color: rgba(150, 150, 150);
+  border-radius: 20px;
+  transition: 0.5s;
 }

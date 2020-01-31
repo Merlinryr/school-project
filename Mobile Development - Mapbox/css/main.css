@@ -1,0 +1,77 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+#map {
+  width: 100%;
+  height: 100vh;
+  top: 5%;
+}
+
+#mode {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  padding: 15px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+  letter-spacing: 3px;
+  z-index: 99999;
+}
+
+#bat {
+  position: sticky;
+  left: 20%;
+  padding: 15px;
+}
+
+.iphone {
+  display: none;
+}
+
+input.iphone+label {
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 20px;
+  border-radius: 60px;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+  background: #ddd;
+}
+
+input.iphone+label::before, input.iphone+label::after {
+  display: block;
+  position: absolute;
+  top: 1px;
+  bottom: 1px;
+  left: 1px;
+  right: 1px;
+  content: '';
+  transition: all 0.4s;
+}
+
+input.iphone+label::before {
+  background: #f1f1f1;
+  border-radius: 60px;
+}
+
+input.iphone+label::after {
+  width: 18px;
+  background: #fff;
+  border-radius: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+}
+
+input.iphone:checked+label::before {
+  background: grey;
+}
+
+input.iphone:checked+label::after {
+  margin-left: 18px;
+}
